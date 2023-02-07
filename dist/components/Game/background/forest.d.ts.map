@@ -1,0 +1,1 @@
+{"version":3,"file":"forest.d.ts","sourceRoot":"","sources":["../../../../src/components/Game/background/forest.tsx"],"names":[],"mappings":"AAAA,OAAO,MAAM,MAAM,WAAW,CAAC;AAK/B,cAAM,MAAM;IACV,OAAO,EAAE,wBAAwB,CAAC;IAClC,UAAU,EAAE,MAAM,CAAC;IACnB,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;gBAEF,OAAO,EAAE,wBAAwB;IA6C7C,IAAI;CAOL;AAED,eAAe,MAAM,CAAC"}

@@ -1,0 +1,56 @@
+.gameContainer {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  aspect-ratio: 16/9;
+  width: 80%;
+}
+
+.gameCanvas {
+  background-color: black;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+/* CSS */
+.startButton {
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: "Codec cold", sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 700;
+  height: 7%;
+  width: 10%;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 48%;
+  display: block;
+}
+
+.startButton:active {
+  outline: 0;
+}
+
+.startButton:hover {
+  outline: 0;
+}
+
+.startButton span {
+  transition: all 200ms;
+}
+
+.startButton:hover span {
+  transform: scale(0.9);
+  opacity: 0.75;
+}

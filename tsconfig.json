@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // compilation options
+    "module": "ESNext",
+    "target": "ES2018",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2018"],
+
+    // emit rules
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "jsx": "react",
+
+    // type checking rules
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": true,
+
+    // other options
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+  "include": ["src", "index.d.ts"]
+}
