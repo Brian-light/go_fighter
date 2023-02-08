@@ -1,14 +1,16 @@
-#Go Fighter
+# Go Fighter
 
-###About
+### About
+
 This HTML5 canvas game was built entirely from scratch, utilizing TypeScript as the programming language and bypassing the use of any pre-existing game engine. Designed to function as a responsive React component, it offers effortless integration into any React-based project by simply exporting the Game component and its dependencies. The gameplay draws inspiration from the classic game, Street Fighter, delivering similar mechanics and experiences.
 
-###Play Now
+### Play Now
+
 The project is currently hosted on Vercel.
 
 <a href="https://go-fighter.vercel.app">Click Here</a> to play!
 
-###Controls
+### Controls
 
 | P1 Controls |  P2 Controls   |          Action          |
 | :---------: | :------------: | :----------------------: |
